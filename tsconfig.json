@@ -18,6 +18,16 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
+    "paths": {
+      "@dinamize/ui/*": [
+        "./projects/ui/*",
+        "./projects/ui"
+      ],
+      "@dinamize/ui": [
+        "./dist/ui/*",
+        "./dist/ui"
+      ]
+    },
     "lib": [
       "ES2022",
       "dom"
