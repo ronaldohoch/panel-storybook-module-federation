@@ -8,6 +8,11 @@
       "root": "projects/ui",
       "sourceRoot": "projects/ui/src",
       "prefix": "lib",
+      "schematics": {
+        "@schematics/angular:component": {
+          "style": "scss"
+        }
+      },
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
