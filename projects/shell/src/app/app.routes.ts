@@ -7,8 +7,8 @@ export const routes: Routes = [
     path:'mfe1',
     loadChildren: () =>
       loadRemoteModule({
-        type: 'module',
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
+        type: 'manifest',
+        remoteName: 'mfe1',
         exposedModule: './routes'
       })
       .then(m => m.mfe1Routes)
