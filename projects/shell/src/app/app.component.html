@@ -1,9 +1,26 @@
-<ul>
-  <li><a routerLink="/mfe1">Home MFE1</a></li>
-  <li><a routerLink="/mfe1/mfe1-page-1">MFE1 page 1</a></li>
-  <li><a routerLink="/mfe1/mfe1-page-2">MFE1 page 2</a></li>
-</ul>
-
-
+<mat-toolbar class="toolbar">
+  <div>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe1">
+      MFE1 Home
+    </button>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe1/mfe1-page-1">
+      MFE1 page 1
+    </button>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe1/mfe1-page-2">
+      MFE1 page 2
+    </button>
+  </div>
+  <div>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe2">
+      MFE2 Home
+    </button>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe2/mfe2-page-1">
+      MFE2 page 1
+    </button>
+    <button mat-button class="example-icon favorite-icon" routerLink="/mfe2/mfe2-page-2">
+      MFE1 page 2
+    </button>
+  </div>
+</mat-toolbar>
 
 <router-outlet />

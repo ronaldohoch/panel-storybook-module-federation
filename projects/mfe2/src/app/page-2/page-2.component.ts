@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'mfe1-page2',
+  selector: 'mfe2-page-2',
   standalone: true,
   imports: [],
-  templateUrl: './page2.component.html',
-  styleUrl: './page2.component.scss'
+  templateUrl: './page-2.component.html',
+  styleUrl: './page-2.component.scss'
 })
 export class Page2Component {
 
