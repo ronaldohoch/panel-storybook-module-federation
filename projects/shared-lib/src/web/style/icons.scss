@@ -1,0 +1,825 @@
+.ico, .ui-icon {
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico-transp{
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: none;
+}
+
+.grid-ico{
+	border-radius:3px;
+	position:absolute;
+}
+
+.ico26 {
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(1.130434782608696);
+	   -moz-transform: scale(1.130434782608696);
+		-ms-transform: scale(1.130434782608696);
+		 -o-transform: scale(1.130434782608696);
+			transform: scale(1.130434782608696);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico24 {
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(1.043478260869565);
+	   -moz-transform: scale(1.043478260869565);
+		-ms-transform: scale(1.043478260869565);
+		 -o-transform: scale(1.043478260869565);
+			transform: scale(1.043478260869565);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 1px;
+	margin-bottom: 1px;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico22 {
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(0.9565217391304348);
+	   -moz-transform: scale(0.9565217391304348);
+		-ms-transform: scale(0.9565217391304348);
+		 -o-transform: scale(0.9565217391304348);
+			transform: scale(0.9565217391304348);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: -1px;
+	margin-bottom: -1px;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico32 {
+	height: 23px;
+	width: 23px;
+	display: block;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(1.391304347826087);
+	   -moz-transform: scale(1.391304347826087);
+		-ms-transform: scale(1.391304347826087);
+		 -o-transform: scale(1.391304347826087);
+			transform: scale(1.391304347826087);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 9px;
+	margin-bottom: 9px;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico36 {
+	height: 23px;
+	width: 23px;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(1.565217391304348);
+	   -moz-transform: scale(1.565217391304348);
+		-ms-transform: scale(1.565217391304348);
+		 -o-transform: scale(1.565217391304348);
+			transform: scale(1.565217391304348);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 13px;
+	margin-bottom: 13px;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico40 {
+	height: 23px;
+	width: 23px;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(1.739130434782609);
+	   -moz-transform: scale(1.739130434782609);
+		-ms-transform: scale(1.739130434782609);
+		 -o-transform: scale(1.739130434782609);
+			transform: scale(1.739130434782609);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 17px;
+	margin-bottom: 17px;
+}
+.icoSm {
+	height: 40px;
+	width:40px;
+	display: block;
+	background: url('../img/socialmedia.svg') no-repeat;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.icoPluginSocialFacebook {
+	height: 140px;
+	width: 140px;
+	display: block;
+	background: url('../img/socialmedia.svg') no-repeat;
+	-webkit-transition: opacity 0.2s ease; -moz-transition: opacity 0.2s ease; -ms-transition: opacity 0.2s ease; -o-transition: opacity 0.2s ease; transition: opacity 0.2s ease;
+}
+.ico50 {
+	height: 23px;
+	width: 23px;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(2.173913043478261);
+	   -moz-transform: scale(2.173913043478261);
+		-ms-transform: scale(2.173913043478261);
+		 -o-transform: scale(2.173913043478261);
+			transform: scale(2.173913043478261);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 27px;
+	margin-bottom: 27px;
+}
+.ico55 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+	-webkit-transform: scale(0.5);
+	   -moz-transform: scale(0.5);
+		-ms-transform: scale(0.5);
+		 -o-transform: scale(0.5);
+			transform: scale(0.5);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: -55px;
+	margin-bottom: -55px;
+}
+.ico60 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+	-webkit-transform: scale(0.5454545454545455);
+	   -moz-transform: scale(0.5454545454545455);
+		-ms-transform: scale(0.5454545454545455);
+		 -o-transform: scale(0.5454545454545455);
+			transform: scale(0.5454545454545455);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: -50px;
+	margin-bottom: -50px;
+}
+.ico62 {
+	height: 23px;
+	width: 23px;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(2.695652173913043);
+	   -moz-transform: scale(2.695652173913043);
+		-ms-transform: scale(2.695652173913043);
+		 -o-transform: scale(2.695652173913043);
+			transform: scale(2.695652173913043);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 39px;
+	margin-bottom: 39px;
+}
+.ico80 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+	-webkit-transform: scale(0.7272727272727273);
+	   -moz-transform: scale(0.7272727272727273);
+		-ms-transform: scale(0.7272727272727273);
+		 -o-transform: scale(0.7272727272727273);
+			transform: scale(0.7272727272727273);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: -30px;
+	margin-bottom: -30px;
+}
+.ico90 {
+	height: 23px;
+	width: 23px;
+	background: url('../img/icons23.svg') no-repeat;
+	-webkit-transform: scale(3.91304347826087);
+	   -moz-transform: scale(3.91304347826087);
+		-ms-transform: scale(3.91304347826087);
+		 -o-transform: scale(3.91304347826087);
+			transform: scale(3.91304347826087);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 67px;
+	margin-bottom: 67px;
+}
+.ico100 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+	-webkit-transform: scale(0.9090909090909091);
+	   -moz-transform: scale(0.9090909090909091);
+		-ms-transform: scale(0.9090909090909091);
+		 -o-transform: scale(0.9090909090909091);
+			transform: scale(0.9090909090909091);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: -10px;
+	margin-bottom: -10px;
+}
+.ico110 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+}
+.ico150 {
+	height: 110px;
+	width: 110px;
+	background: url('../img/icons110.svg') no-repeat;
+	-webkit-transform: scale(1.363636363636364);
+	   -moz-transform: scale(1.363636363636364);
+		-ms-transform: scale(1.363636363636364);
+		 -o-transform: scale(1.363636363636364);
+			transform: scale(1.363636363636364);
+	-webkit-transform-origin: top left; -o-transform-origin: top left; -ms-transform-origin: top left; transform-origin: top left;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.infoPasswordMeter{
+	.ico{
+		&.low { background-position: -667px 0; float: left; margin: 6px 0; } /*REF ico23 29-1*/
+		&.soft { background-position: -3105px 0; float: left; margin: 6px 0; } /*REF ico23 135-1*/
+		&.high { background-position: -1357px 0; float: left; margin: 6px 0; } /*REF ico23 59-1*/
+	}
+}
+
+
+
+
+.ico-alert { background-position: -3105px 0; } /*REF ico23 135-1*/
+
+.ico-diet-arrow{ background-position: -1219px 0; } /*REF ico23 53-1*/
+.ico-circle-plus{ background-position: -529px 0; } /*REF ico23 23-1*/
+.ico-circle-plus-minor{ background-position: -1150px 0; } /*REF ico23 50-1*/
+.ico-circle-minus{ background-position: -552px 0; } /*REF ico23 24-1*/
+.ico-circle-red {background-position: -1403px 0; } /*REF ico23 61-1*/
+.ico-blue-check {background-position: -1495px 0; } /*REF ico23 65-1*/
+.ico-help {background-position: -2093px 0; } /*REF ico23 91-1*/
+.ico-add-item {background-position: -2116px 0; }  /*REF ico23 92-1*/
+.ico-contact-blue { background-position: -3588px 0; } /*REF ico23 156-1*/
+.ico-info {background-position: -2921px 0;} /*REF ico23 127-1*/
+.ico-help {background-position: -2093px 0; } /*REF ico23 91-1*/
+.ico-note {background-position: -4439px 0; } /*REF ico23 193-1*/
+.ico-opt {background-position: -4393px 0; } /*REF ico23 191-1*/
+.ico-cart {background-position: -4416px 0; } /*REF ico23 192-1*/
+
+.ico-star-light {background-position: -4462px 0; } /*REF ico23 194-1*/
+.ico-star-dark {background-position: -4462px -23px; } /*REF ico23 194-2*/
+.ico-arrow-light {background-position: -4485px 0; } /*REF ico23 195-1*/
+.ico-arrow-dark {background-position: -4485px -23px; } /*REF ico23 195-2*/
+.ico-tools-light {background-position: -4508px 0; } /*REF ico23 196-1*/
+.ico-tools-dark {background-position: -4508px -23px; } /*REF ico23 196-2*/
+
+.ico-label-green {background-position: -4531px 0; } /*REF ico23 197-1*/
+.ico-label-yellow {background-position: -4554px 0; } /*REF ico23 198-1*/
+.ico-label-red {background-position: -4577px 0; } /*REF ico23 199-1*/
+
+.ico-before{ background-position: -966px 0; } /*REF ico23 42-1*/
+.ico-after{ background-position: -989px 0; } /*REF ico23 43-1*/
+
+.ico32-cursor-border { background-position: -2185px 0; } /*REF ico23 95-1*/
+.ico32-contact { background-position: -2208px 0; } /*REF ico23 96-1*/
+.ico32-contact-blue { background-position: -3588px 0; } /*REF ico23 156-1*/
+.ico32-x { background-position: -2277px 0; } /*REF ico23 99-1*/
+.ico32-megaphone { background-position: -2254px 0; } /*REF ico23 98-1*/
+.ico32-phanton { background-position: -2231px 0; } /*REF ico23 97-1*/
+.ico32-contact-purple { background-position: -2254px 0; } /*REF ico23 98-1*/
+.ico32-setting-yellow { background-position: -2415px 0; } /*REF ico23 105-1*/
+.ico32-setting{ background-position: -2323px 0;} /*REF ico23 101-1*/
+.ico32-setting:hover{ background-position: -2323px -23px;} /*REF ico23 101-2*/
+.ico32-share{ background-position: -2369px 0;} /*REF ico23 103-2*/
+.ico32-share:hover{ background-position: -2369px -23px;} /*REF ico23 103-1*/
+.ico32-calendar-select{ background-position: -2438px 0;} /*REF ico23 106-1*/
+.ico32-calendar{ background-position: -2438px -23px;} /*REF ico23 106-2*/
+.ico32-list-select{ background-position: -2461px 0;} /*REF ico23 107-1*/
+.ico32-list{ background-position: -2461px -23px;} /*REF ico23 107-2*/
+.ico32-important{background-position: -2484px 0;} /*REF ico23 108-1*/
+.ico32-pointer {background-position: -2507px 0; } /*REF ico23 109-1*/
+.ico32-group {background-position: -2530px 0; } /*REF ico23 110-1*/
+.ico32-filter {background-position: -2553px 0; } /*REF ico23 111-1*/
+.ico32-pointer-selected, .selected .ico32-pointer {background-position: -2507px -23px;} /*REF ico23 109-2*/
+.ico32-group-selected, .selected .ico32-group {background-position: -2530px -23px;} /*REF ico23 110-2*/
+.ico32-filter-selected, .selected .ico32-filter {background-position: -2553px -23px; } /*REF ico23 111-2*/
+.ico32-extract-select{ background-position: -2576px 0;} /*REF ico23 112-1*/
+.ico32-extract {background-position: -2576px -23px;} /*REF ico23 112-2*/
+
+.ico40-pointer {background-position: -2507px 0; } /*REF ico23 109-1*/
+.ico40-group {background-position: -2530px 0; } /*REF ico23 110-1*/
+.ico40-pointer-selected {background-position: -2507px -23px;} /*REF ico23 109-2*/
+.ico40-group-selected {background-position: -2530px -23px;} /*REF ico23 110-2*/
+.selected .ico40-pointer {background-position: -2507px -23px;} /*REF ico23 109-2*/
+.selected .ico40-group {background-position: -2024px -23px;} /*REF ico23 88-2*/
+
+.ico40-filter {background-position: -2553px 0; } /*REF ico23 111-1*/
+.ico40-filter-selected {background-position: -2553px -23px;} /*REF ico23 111-2*/
+.selected .ico40-filter {background-position: -2553px -23px;} /*REF ico23 111-2*/
+
+.ico40-form {background-position: -2461px -23px; }
+.ico40-form-selected {background-position: -2461px 0;}
+.selected .ico40-form {background-position: -2461px 0;}
+
+.ico-item-instructions{background-position: -4209px 0;} /*REF ico23 183-1*/
+.ico-list{background-position: -4278px -23px;} /*REF ico23 186-2*/
+.ico-list:hover,
+.ico-list.active{background-position: -4278px 0;} /*REF ico23 186-1*/
+.ico-block{background-position: -4301px -23px;} /*REF ico23 187-2*/
+.ico-block:hover,
+.ico-block.active{background-position: -4301px 0;} /*REF ico23 187-1*/
+.ico23-duplicate-selected{ background-position:-4347px 0px; } /*REF ico23 189-1*/
+.ico23-duplicate{ background-position:-4347px -23px; } /*REF ico23 189-2*/
+
+.ico-socialmedia-facebook{ background-position:0 0;} /*REF socialmedia 0-1*/
+.ico-socialmedia-facebook-zoom{ background-position:0 -40px;} /*REF socialmedia 0-2*/
+.ico-socialmedia-twitter{ background-position:-40px 0;} /*REF socialmedia 1-1*/
+.ico-socialmedia-twitter-zoom{ background-position:-40px -40px;} /*REF socialmedia 1-2*/
+.ico-socialmedia-googleplus{ background-position:-80px 0;} /*REF socialmedia 2-1*/
+.ico-socialmedia-youtube{ background-position:-120px 0;} /*REF socialmedia 3-1*/
+.ico-socialmedia-instagram{ background-position:-160px 0;} /*REF socialmedia 4-1*/
+.ico-socialmedia-stumbleupon{ background-position:-200px 0;} /*REF socialmedia 5-1*/
+.ico-socialmedia-reddit{ background-position:-240px 0;} /*REF socialmedia 6-1*/
+.ico-socialmedia-digg{ background-position:-280px 0;} /*REF socialmedia 7-1*/
+.ico-socialmedia-vimeo{ background-position:-320px 0;} /*REF socialmedia 8-1*/
+.ico-socialmedia-delicius{ background-position:-360px 0;} /*REF socialmedia 9-1*/
+.ico-socialmedia-newsvine{ background-position:-400px 0;} /*REF socialmedia 10-1*/
+.ico-socialmedia-foursquare{ background-position:-440px 0;} /*REF socialmedia 11-1*/
+.ico-socialmedia-linkedin{ background-position:-480px 0;} /*REF socialmedia 12-1*/
+.ico-socialmedia-linkedin-zoom{ background-position:-480px 0px;} /*REF socialmedia 12-1*/
+.ico-socialmedia-tumblr{ background-position:-520px 0;} /*REF socialmedia 13-1*/
+.ico-socialmedia-pinterest{ background-position:-560px 0;} /*REF socialmedia 14-1*/
+.ico-socialmedia-spotify{ background-position:-680px 0;} /*REF socialmedia 17-1*/
+.ico-socialmedia-flickr{ background-position:-720px 0;}  /*REF socialmedia 18-1 */
+.ico-socialmedia-website{ background-position:-600px 0;} /*REF socialmedia 15-1*/
+.ico-socialmedia-email{ background-position:-640px 0;} /*REF socialmedia 16-1*/
+.ico-socialmedia-whatsapp{ background-position:-800px 0;} /*REF socialmedia 20-1*/
+.ico-socialmedia-whatsapp-zoom{ background-position:-800px 0;} /*REF socialmedia 20-1*/
+.ico-socialmedia-telegram{ background-position:-840px 0;} /*REF socialmedia 21-1*/
+.ico-socialmedia-telegram-zoom{ background-position:-840px 0;} /*REF socialmedia 21-1*/
+.ico20-socialmedia-FCB { background-position:0 0;} /*REF socialmedia 0-1*/
+.ico20-socialmedia-TWT { background-position:-40px 0;} /*REF socialmedia 1-1*/
+.ico-pluginsocial-facebook-comments { background-position:0px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-page { background-position:-150px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-send { background-position:-300px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-share-button { background-position:-450px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-like { background-position:-600px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-post { background-position:-750px -140px; } /*REF socialmedia*/
+.ico-pluginsocial-facebook-comment-embed { background-position:-900px -140px; } /*REF socialmedia*/
+
+.ico-table-arrow-left{background-position: -920px 0;}
+.ico-table-arrow-right{background-position: -943px 0;}
+
+.ico-opacity {-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";filter: alpha(opacity=30);-moz-opacity: 0.3;-khtml-opacity: 0.3;opacity: 0.3;}
+
+.ico-item {
+	background-position: -46px 0;  /*REF ico23 2-1*/
+	cursor: pointer;
+	float: left;
+	margin-top: 2px;
+}
+.ico-item-on { background-position: -69px 0 !important;} /*REF ico23 3-1*/
+.ico-item-right { background-position: -46px 0;} /*REF ico23 2-1*/
+.ico-item-right-hover { background-position: -46px -23px;} /*REF ico23 2-2*/
+.ico-item-hover { background-position: -46px -23px;} /*REF ico23 2-2*/
+.ico-item-left { background-position: -621px 0;} /*REF ico23 27-1*/
+.ico-item-left-hover { background-position: -621px -23px;} /*REF ico23 27-2*/
+.ico-item-left-b { background-position: -1311px 0;} /*REF ico23 57-1*/
+.ico-group { background-position: 0 0;} /*REF ico23 0-1*/
+.ico-group-hover { background-position: 0 -23px;} /*REF ico23 0-2*/
+.ico-group-on { background-position: -23px 0;} /*REF ico23 1-1*/
+.ico-find { background-position: -184px 0;} /*REF ico23 8-1*/
+.ico-find-smaller {background-position: -1380px 0;} /*REF ico23 60-1*/
+.ico-minor-arrow {background-position: -506px -23px;} /*REF ico23 22-2*/
+.ico-minor-arrow-back {background-position: -897px -23px;} /*REF ico23 39-2*/
+.ico-minor-arrow-v-dark {background-position: -506px 0;} /*REF ico23 22-1*/
+.ico-plus { background-position: -161px 0;} /*REF ico23 7-1*/
+.ico-exit{ background-position: -207px 0;} /*REF ico23 9-1*/
+.ico-exit-hover{ background-position: -207px -23px;} /*REF ico23 9-2*/
+.ico-totalSendSchedule{background-position:-1564px 0; } /*REF ico23 68-1*/
+.ico-send{background-position: -1587px 0; } /*REF ico23 69-1*/
+.ico-user{ background-position: -230px 0;} /*REF ico23 10-1*/
+.ico-user:hover{ background-position: -230px -23px;} /*REF ico23 10-2*/
+.ico-setaSubMenuBranca {background-position: -276px 0;} /*REF ico23 12-1*/
+.ico-setaSubMenuBranca:hover{ background-position: -276px -23px;} /*REF ico23 12-2*/
+.ico-exit2{ background-position: -253px 0;} /*REF ico23 11-1*/
+.ico-exit2:hover{ background-position: -253px -23px;} /*REF ico23 11-2*/
+.ico-arrow-h { background-position: -575px 0;} /*REF ico23 25-1*/
+.ico-arrow-v { background-position: -598px 0;} /*REF ico23 26-1*/
+.ico-arrow-v2 { background-position: -437px 0;} /*REF ico23 19-1*/
+.ico-arrow-up-v{ background-position: -621px 0;} /*REF ico23 27-1*/
+.ico-arrow-up-v-white{ background-position: -3266px 0;} /*REF ico23 142-1*/
+.ico-newuser {background-position: -621px 0;} /*REF ico23 27-1*/
+.ico-newteam {background-position: -644px 0;} /*REF ico23 28-1*/
+.ico-arrow-fade { background-position: -575px 0; opacity: 0.2;}  /*REF ico23 25-1*/
+.ico-arrow-h-white { background-position: -575px -23px; } /*REF ico23 25-2*/
+.ico-arrow-h-white-fade { background-position: -736px 0; } /*REF ico23 32-1*/
+.ico-arrow-h-white-fade-back { background-position: -1334px 0; } /*REF ico23 58-1*/
+.ico-arrow-v-white { background-position: -598px -23px; } /*REF ico23 26-2*/
+.ico-arrow-v-white2 { background-position: -3289px -0px; } /*REF ico23 143-2*/
+.ico-arrow-v-dark { background-position: -690px 0; } /*REF ico23 30-1*/
+.ico-arrow-v-dark-reverse {background-position: -897px 0;} /*REF ico23 39-1*/
+.ico-success { background-position: -1357px 0; } /*REF ico23 59-1*/
+
+.ico-open {background-position:-3473px 0;} /*REF ico23 151-1 */
+.ico-resolved {background-position:-3565px 0;} /*REF ico23 155-1 */
+.ico-waiting { background-position:-3496px 0; } /*REF ico23 152-1 */
+.ico-customerWaiting { background-position:-3519px 0; } /*REF ico23 153-1 */
+.ico-closed {background-position:-3542px 0;} /*REF ico23 154-1 */
+.ico-bell { background-position: -4255px 0;} /*REF ico23 185-1*/
+.ico-bell-hover { background-position: -4255px -23px;} /*REF ico23 185-2*/
+.ico-bell-on { background-position: -4232px 0;} /*REF ico23 184-1*/
+
+.ico-up {background-position:-4140px 0;} /*REF ico23 155-1 */
+.ico-down {background-position:-4163px 0; } /*REF ico23 152-1 */
+.ico-neutral {background-position:-4186px 0;} /*REF ico23 155-1 */
+
+.ico-error-cross { background-position: -667px 0; } /*REF ico23 29-1*/
+.ico-error-cross-small { background-position: -713px 0; } /*REF ico23 31-1*/
+.ico-error-cross-small-white { background-position: -3312px 0; } /*REF ico23 144-1*/
+.ico-disabled { background-position: -805px 0;} /*REF ico23 35-1*/
+.ico-edit { background-position: -851px 0; } /*REF ico23 37-1*/
+.ico-moveOrder { background-position: -1058px 0; } /*REF ico23 46-1*/
+.ico-moveOrderTrans { background-position: -1081px 0; } /*REF ico23 47-1*/
+.ico-arrowDown { background-position: -1035px 0; } /*REF ico23 45-1*/
+.ico-contact { background-position: -1104px 0; } /*REF ico23 48-1*/
+.ico-contactTrans { background-position: -1127px 0; } /*REF ico23 49-1*/
+.ico-item-edit { background-position: -1196px 0; } /*REF ico23 52-1*/
+.ico-item-remove { background-position: -1173px 0; } /*REF ico23 51-1*/
+.ico-item-detail { background-position: -3358px 0; } /*REF ico23 146-1*/
+.ico-add-credit { background-position: -3381px 0; } /*REF ico23 147-1*/
+.ico-moveLeft { background-position: -1242px 0; } /*REF ico23 54-1*/
+.ico-moveRight { background-position: -1265px 0; } /*REF ico23 55-1*/
+.ico-moveLeft-red { background-position: -1242px -23px; } /*REF ico23 54-2*/
+.ico-moveRight-red { background-position: -1265px -23px; } /*REF ico23 55-2*/
+.ico-add { background-position: -1288px 0; } /*REF ico23 56-1*/
+.ico-config-gray { background-position: -2323px 0; } /*REF ico23 101-1*/
+.ico-config-blue { background-position: -1426px 0; } /*REF ico23 62-1*/
+.ico-config-blue:hover { background-position: -1426px -23px; } /*REF ico23 62-2*/
+.ico-item-remove-grey { background-position: -1449px 0; } /*REF ico23 63-1*/
+.ico-item-remove-grey:hover { background-position: -1449px -23px; } /*REF ico23 63-2*/
+.ico-funnel { background-position: -1472px 0; } /*REF ico23 64-1*/
+.ico-users { background-position: -1541px 0;} /*REF ico23 67-1*/
+.ico-schedule {background-position: -1656px 0;} /*REF ico23 72-1*/
+.ico-schedule-ab {background-position: -1863px 0;} /*REF ico23 81-1*/
+.ico-ballplus { background-position: -161px 0; } /*REF ico23 7-1*/
+.ico-play{background-position: -3128px 0;}/* REF ico23 136-1*/
+.ico-pause{background-position: -3151px 0;}/* REF ico23 137-1*/
+.ico-sms {background-position: -4324px 0;} /*REF ico23 188-1*/
+
+.ico-filter-rule { background-position: -1794px 0;} /*REF ico23 78-1*/
+.ico-filter-field {background-position: -1817px 0;} /*REF ico23 79-1*/
+.ico-filter { background-position: -1840px 0; } /*REF ico23 80-1*/
+
+.ico-grid-clean {background-position: -2001px 0;} /*REF ico23 87-1*/
+.ico-grid-clean:hover { background-position: -2001px -23px; } /*REF ico23 87-2*/
+.ico-grid-addvalues {background-position: -1978px 0;} /*REF ico23 86-1*/
+.ico-grid-calendar {background-position: -1679px 0;} /*REF ico23 73-1*/
+.ico-grid-pause { background-position: -1702px 0; } /*REF ico23 74-1*/
+.ico-grid-play { background-position: -4117px 0; } /*REF ico23 179-1*/
+.ico-grid-sendtest {background-position: -1725px 0;} /*REF ico23 75-1*/
+.ico-grid-report { background-position: -1748px 0; } /*REF ico23 76-1*/
+.ico-grid-share {background-position: -1771px 0;} /*REF ico23 77-1*/
+.ico-grid-duplicate {background-position: -4048px 0;} /*REF ico23 176-1*/
+.ico-grid-technical {background-position: -2300px 0;}/*REF ico23 100-1*/
+.ico-grid-contacts { background-position: -2047px 0; } /*REF ico23 89-1*/
+.ico-grid-listdetails { background-position: -2070px 0; } /*REF ico23 90-1*/
+.ico-grid-contactdetails { background-position: -2024px 0; } /*REF ico23 88-1*/
+.ico-refresh { background-position: -1955px 0; } /*REF ico23 85-1*/
+.ico-key {background-position: -299px 0;} /*REF ico23 13-1*/
+.ico-gear {background-position: -322px 0;} /*REF ico23 14-1*/
+
+
+.ico-trash{ background-position: -3197px 0; } /*REF ico23 139-1*/
+.ico-gear-white{ background-position: -3703px 0; } /*REF ico23 161-1*/
+.ico-edit-white{ background-position: -3726px 0; } /*REF ico23 162-1*/
+.ico-play-white{ background-position: -3749px 0; } /*REF ico23 163-1*/
+.ico-pause-white{ background-position: -3772px 0; } /*REF ico23 164-1*/
+.ico-entrada-contato{ background-position: -3795px 0; } /*REF ico23 165-1*/
+.ico-comportamento-contato{ background-position: -3818px 0; } /*REF ico23 166-1*/
+.ico-verificacao-diaria{ background-position: -3841px 0; } /*REF ico23 167-1*/
+.ico-atualizacao-contato{ background-position: -3864px 0; } /*REF ico23 168-1*/
+.ico-atualizar-dados{ background-position: -3864px 0; } /*REF ico23 168-1*/
+.ico-pos-clique{ background-position: -3887px 0; } /*REF ico23 169-1*/
+.ico-tempo{ background-position: -3910px 0; } /*REF ico23 170-1*/
+.ico-enviar-email{ background-position: -3933px 0; } /*REF ico23 171-1*/
+.ico-enviar-sms{ background-position: -3956px 0; } /*REF ico23 172-1*/
+.ico-push{ background-position: -3956px 0; } /*REF ico23 172-1*/
+.ico-acao{ background-position: -3979px 0; } /*REF ico23 173-1*/
+.ico-adicionar-trigger{ background-position: -4002px 0; } /*REF ico23 174-1*/
+.ico-pausar{ background-position: -4025px 0; } /*REF ico23 175-1*/
+.ico-ativar{ background-position: -4071px 0; } /*REF ico23 177-1*/
+.ico-relatorio{ background-position: -4094px 0; } /*REF ico23 178-1*/
+
+.ico-locked{ background-position: -368px 0;} /*REF ico23 16-1*/
+.ico-basket{ background-position: -391px 0;} /*REF ico23 17-1*/
+
+.ico-check{ background-position: -345px 0;} /*REF ico23 15-1*/
+.ico-admin{ display: inline-block; vertical-align: middle; margin-left: 15px; background-position: -759px 0;} /*REF ico23 33-1*/
+.ico-super{ display: inline-block; vertical-align: middle; margin-left: 15px; background-position: -782px 0;} /*REF ico23 34-1*/
+.ico-closethick { background-position: -460px 0; } /*REF ico23 20-1*/
+.ico-arrowup-red{ background-position: -483px 0; } /*REF ico23 21-1*/
+.ico-check-black{background-position:-1886px 0;} /*REF ico23 82-1*/
+.ico-chart-black{background-position:-1909px 0;} /*REF ico23 83-1*/
+.ico-view-black{background-position:-1932px 0;} /*REF ico23 84-1*/
+
+.ico-folder-plus{ background-position: -3657px 0;} /*REF ico23 159-1*/
+.ico-folder-minus{ background-position: -3657px -23px;} /*REF ico23 159-2*/
+.ico-file{ background-position: -3680px 0;} /*REF ico23 160-1*/
+.ico-copy{ background-position: -3680px 0;} /*REF ico23 160-1*/
+.ico-folder{ background-position: -1610px 0;} /*REF ico23 70-1*/
+.ico-gearblue{ background-position: -1426px 0;} /*REF ico23 62-1*/
+.ico-geargray{ background-position: -1518px 0;} /*REF ico23 66-1*/
+.ico-lapice{ background-position: -1633px 0;} /*REF ico23 71-1*/
+.ico32-rotate { background-position: -2139px 0; } /*REF ico23 93-1*/
+.ico32-rotate:hover { background-position: -2139px -23px; } /*REF ico23 93-2*/
+.ico32-rotate-inv { background-position: -2162px 0; } /*REF ico23 94-1*/
+.ico32-rotate-inv:hover { background-position: -2162px -23px; } /*REF ico23 94-2*/
+.ico-setaPath{background-position:-280px -7px; margin-top: 4px;} /*REF ico23 12-1*/
+.ico-setaComeBack{
+	width: 6px;
+	height: 9px;
+	margin-top: 4px !important;
+	margin-left: 0 !important;
+	margin-right: 12px;
+	background-position:-906px -7px;  /*REF ico23 39-1*/
+	float: left;}
+.ico-setaSubMenu {
+	width: 6px;
+	height: 9px;
+	margin-top: 5px !important;
+	margin-left: 0 !important;
+	margin-right: 12px;
+	background-position: -101px -7px; /*REF ico23 4-1*/
+	float: left;
+}
+
+.ico-arrow-to-left {
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+	vertical-align: middle;
+	background-position: -1012px 0; /*REF ico23 44-1*/
+	margin-top: 4px;
+}
+.ico-arrow-to-bottom {
+	float: left;
+	margin-left: 12px;
+	margin-right: 12px;
+	vertical-align: middle;
+	background-position: -1035px 0; /*REF ico23 45-1*/
+	margin-top: 4px;
+}
+.ico-app {
+	background-position: -4326px -5px; /*REF ico23 188-1*/
+	display: inline-block;
+	vertical-align: middle;
+	background-color: black;
+	margin-right: 2px;
+	height: 12px;
+	width: 19px;
+}
+.ico-pencil{background-position: -1633px 0;} /*REF ico23 71-1*/
+.ico-addvalues-blue{background-position: -4600px 0;} /*REF ico23 200-1*/
+
+.btn .ico {
+	float: left;
+	margin-right: 8px;
+	margin-top: 7px;
+}
+.btn .ico-right{
+	float:right;
+	margin:0;
+	margin-top:7px;
+	position:relative;
+	left:8px;
+}
+
+
+
+.ico-error-cross-dinEditor{ width: 14px; height: 14px; display: inline-block; margin: 0px 0 -3px 9px; background-color: #FFF; }
+.ico-error-cross-dinEditor .ico{
+	background-position: -667px 0;
+	-webkit-transform: scale(1.4375);
+	   -moz-transform: scale(1.4375);
+		-ms-transform: scale(1.4375);
+		 -o-transform: scale(1.4375);
+			transform: scale(1.4375);
+
+	-webkit-transform-origin: right bottom;
+	   -moz-transform-origin: right bottom;
+		-ms-transform-origin: right bottom;
+		 -o-transform-origin: right bottom;
+			transform-origin: right bottom;
+
+	-webkit-transition: opacity 0.2s ease;
+	   -moz-transition: opacity 0.2s ease;
+		-ms-transition: opacity 0.2s ease;
+		 -o-transition: opacity 0.2s ease;
+			transition: opacity 0.2s ease;
+}
+
+.ico-right-side div {
+	float: right !important;
+	margin: 8px -8px 0 2px !important;
+}
+.ico-left-side div {
+	float: left !important;
+	margin: 8px 2px 0 -8px !important;
+}
+.ico-right-side span, .ico-left-side span {
+	float: left;
+	margin-top: 8px;
+}
+
+
+
+.app-name{ display: inline-block; font-size: 10px; }
+.push-message-title { font-size: 14px; font-weight: bold; display: block; }
+
+
+/* ícones de submenu */
+.ico-submenu-newSend{             background-position:    0px    0px; } /*REF ico110 0-1*/
+.ico-submenu-newSend-hover{       background-position:    0px -110px; } /*REF ico110 0-2*/
+.ico-submenu-filter{              background-position: -110px    0px; } /*REF ico110 1-1*/
+.ico-submenu-filter-hover{        background-position: -110px -110px; } /*REF ico110 1-2*/
+.ico-submenu-import{              background-position: -220px    0px; } /*REF ico110 2-1*/
+.ico-submenu-import-hover{        background-position: -220px -110px; } /*REF ico110 2-2*/
+.ico-submenu-statistics{          background-position: -330px    0px; } /*REF ico110 3-1*/
+.ico-submenu-statistics-hover{    background-position: -330px -110px; } /*REF ico110 3-2*/
+.ico-submenu-search{              background-position: -440px    0px; } /*REF ico110 4-1*/
+.ico-submenu-search-hover{        background-position: -440px -110px; } /*REF ico110 4-2*/
+.ico-submenu-history{             background-position: -550px    0px; } /*REF ico110 5-1*/
+.ico-submenu-history-hover{       background-position: -550px -110px; } /*REF ico110 5-2*/
+.ico-submenu-models{              background-position: -660px    0px; } /*REF ico110 6-1*/
+.ico-submenu-models-hover{        background-position: -660px -110px; } /*REF ico110 6-2*/
+.ico-submenu-workflow{            background-position: -770px    0px; } /*REF ico110 7-1*/
+.ico-submenu-workflow-hover{      background-position: -770px -110px; } /*REF ico110 7-2*/
+.ico-submenu-campaigns{           background-position: -880px    0px; } /*REF ico110 8-1*/
+.ico-submenu-campaigns-hover{     background-position: -880px -110px; } /*REF ico110 8-2*/
+.ico-submenu-testAB {             background-position: -990px    0px; } /*REF ico110 9-1*/
+.ico-submenu-testAB-hover {       background-position: -990px -110px; } /*REF ico110 9-2*/
+.ico-submenu-schedule{            background-position:-1100px    0px; } /*REF ico110 10-1*/
+.ico-submenu-schedule-hover{      background-position:-1100px -110px; } /*REF ico110 10-2*/
+.ico-submenu-faq{                 background-position:-1210px    0px; } /*REF ico110 11-1*/
+.ico-submenu-faq-hover{           background-position:-1210px -110px; } /*REF ico110 11-2*/
+.ico-submenu-called{              background-position:-1320px    0px; } /*REF ico110 12-1*/
+.ico-submenu-called-hover{        background-position:-1320px -110px; } /*REF ico110 12-2*/
+.ico-submenu-videoTutorial{       background-position:-1430px    0px; } /*REF ico110 13-1*/
+.ico-submenu-videoTutorial-hover{ background-position:-1430px -110px; } /*REF ico110 13-2*/
+.ico-submenu-wiki{                background-position:-1540px    0px; } /*REF ico110 14-1*/
+.ico-submenu-wiki-hover{          background-position:-1540px -110px; } /*REF ico110 14-2*/
+.ico-submenu-dataBase{            background-position:-1650px    0px; } /*REF ico110 15-1*/
+.ico-submenu-dataBase-hover{      background-position:-1650px -110px; } /*REF ico110 15-2*/
+.ico-submenu-chat{                background-position:-1760px    0px; } /*REF ico110 16-1*/
+.ico-submenu-chat-hover{          background-position:-1760px -110px; } /*REF ico110 16-2*/
+.ico-submenu-consolidated{        background-position:-5390px    0px; } /*REF ico110 49-1*/
+.ico-submenu-consolidated-hover{  background-position:-5390px -110px; } /*REF ico110 49-2*/
+.ico-submenu-extract{             background-position:-5500px    0px; } /*REF ico110 50-1*/
+.ico-submenu-extract-hover{       background-position:-5500px -110px; } /*REF ico110 50-2*/
+.ico-submenu-landingpage{         background-position:-5610px    0px; } /*REF ico110 51-1*/
+.ico-submenu-landingpage-hover{   background-position:-5610px -110px; } /*REF ico110 51-2*/
+.ico-submenu-sms{                 background-position:-5940px    0px; } /*REF ico110 54-1*/
+.ico-submenu-sms-hover{           background-position:-5940px -110px; } /*REF ico110 54-2*/
+
+.ico110-ref55 { background-position: -6050px 0px; } /*REF ico110 55-1*/
+.ico110-ref56 { background-position: -6160px 0px; } /*REF ico110 56-1*/
+.ico110-ref57 { background-position: -6270px 0px; } /*REF ico110 57-1*/
+.ico110-ref58 { background-position: -6380px 0px; } /*REF ico110 58-1*/
+.ico110-ref59 { background-position: -6490px 0px; } /*REF ico110 59-1*/
+.ico110-ref60 { background-position: -6600px 0px; } /*REF ico110 60-1*/
+.ico110-ref61 { background-position: -6710px 0px; } /*REF ico110 61-1*/
+.ico110-ref62 { background-position: -6820px 0px; } /*REF ico110 62-1*/
+.ico110-ref63 { background-position: -6930px 0px; } /*REF ico110 63-1*/
+.ico110-ref64 { background-position: -7040px 0px; } /*REF ico110 64-1*/
+.ico110-ref65 { background-position: -7150px 0px; } /*REF ico110 65-1*/
+.ico110-ref66 { background-position: -7260px 0px; } /*REF ico110 66-1*/
+.ico110-ref67 { background-position: -7370px 0px; } /*REF ico110 67-1*/
+.ico110-ref68 { background-position: -7480px 0px; } /*REF ico110 68-1*/
+.ico110-ref69 { background-position: -7590px 0px; } /*REF ico110 69-1*/
+.ico110-ref70 { background-position: -7700px 0px; } /*REF ico110 70-1*/
+.ico110-ref71 { background-position: -7810px 0px; } /*REF ico110 71-1*/
+.ico110-ref72 { background-position: -7920px 0px; } /*REF ico110 72-1*/
+.ico110-ref73 { background-position: -8030px 0px; } /*REF ico110 73-1*/
+.ico110-ref74 { background-position: -8140px 0px; } /*REF ico110 74-1*/
+.ico110-ref75 { background-position: -8250px 0px; } /*REF ico110 75-1*/
+.ico110-ref76 { background-position: -8360px 0px; } /*REF ico110 76-1*/
+.ico110-ref77 { background-position: -8470px 0px; } /*REF ico110 77-1*/
+.ico110-ref78 { background-position: -8580px 0px; } /*REF ico110 78-1*/
+.ico110-ref79 { background-position: -8690px 0px; } /*REF ico110 79-1*/
+.ico110-ref80 { background-position: -8800px 0px; } /*REF ico110 80-1*/
+.ico110-ref81 { background-position: -8910px 0px; } /*REF ico110 81-1*/
+.ico110-ref82 { background-position: -9020px 0px; } /*REF ico110 82-1*/
+.ico110-ref83 { background-position: -9130px 0px; } /*REF ico110 83-1*/
+.ico110-ref84 { background-position: -9240px 0px; } /*REF ico110 84-1*/
+.ico110-ref85 { background-position: -9350px 0px; } /*REF ico110 85-1*/
+.ico110-ref86 { background-position: -9460px 0px; } /*REF ico110 86-1*/
+.ico110-ref87 { background-position: -9570px 0px; } /*REF ico110 87-1*/
+.ico110-ref88 { background-position: -9680px 0px; } /*REF ico110 88-1*/
+.ico110-ref89 { background-position: -9790px 0px; } /*REF ico110 89-1*/
+.ico110-ref90 { background-position: -9900px 0px; } /*REF ico110 90-1*/
+.ico110-ref91 { background-position: -10010px 0px; } /*REF ico110 91-1*/
+.ico110-ref92 { background-position: -10120px 0px; } /*REF ico110 92-1*/
+.ico110-ref93 { background-position: -10230px 0px; } /*REF ico110 93-1*/
+.ico110-ref94 { background-position: -10340px 0px; } /*REF ico110 94-1*/
+.ico110-ref95 { background-position: -10450px 0px; } /*REF ico110 95-1*/
+.ico110-ref96 { background-position: -10560px 0px; } /*REF ico110 96-1*/
+.ico110-ref97 { background-position: -10670px 0px; } /*REF ico110 97-1*/
+.ico110-ref98 { background-position: -10780px 0px; } /*REF ico110 98-1*/
+.ico110-ref99 { background-position: -10890px 0px; } /*REF ico110 99-1*/
+.ico110-ref100 { background-position: -11000px 0px; } /*REF ico110 100-1*/
+.ico110-ref101 { background-position: -11110px 0px; } /*REF ico110 101-1*/
+.ico110-ref102 { background-position: -11220px 0px; } /*REF ico110 102-1*/
+.ico110-ref103 { background-position: -11330px 0px; } /*REF ico110 103-1*/
+.ico110-ref104 { background-position: -11440px 0px; } /*REF ico110 104-1*/
+.ico110-ref105 { background-position: -11550px 0px; } /*REF ico110 105-1*/
+.ico110-ref106 { background-position: -11660px 0px; } /*REF ico110 106-1*/
+.ico110-ref107 { background-position: -11770px 0px; } /*REF ico110 107-1*/
+.ico110-ref108 { background-position: -11880px 0px; } /*REF ico110 108-1*/
+.ico110-ref109 { background-position: -11990px 0px; } /*REF ico110 109-1*/
+.ico110-ref110 { background-position: -12100px 0px; } /*REF ico110 110-1*/
+.ico110-ref111 { background-position: -12210px 0px; } /*REF ico110 111-1*/
+.ico110-ref112 { background-position: -12320px 0px; } /*REF ico110 112-1*/
+.ico110-ref113 { background-position: -12430px 0px; } /*REF ico110 113-1*/
+.ico110-ref114 { background-position: -12540px 0px; } /*REF ico110 114-1*/
+.ico110-ref118 { background-position: -12980px 0px; } /*REF ico110 118-1*/
+.ico110-ref120 { background-position: -13200px 0px; } /*REF ico110 120-1*/
+
+
+
+.ico17-star-full { background-position: -3013px 0;} /*REF ico23 131-1*/
+.ico17-star-half { background-position: -3036px 0;} /*REF ico23 132-1*/
+.ico17-star-empty { background-position: -3059px 0;} /*REF ico23 133-1*/
+
+.ico36-previous { background-position: -2967px 0; } /*REF ico23 129-1*/
+.ico36-next {background-position: -2990px 0;} /*REF ico110 130-1*/
+
+.ico40-people {background-position: -2760px 0; } /*REF ico23 120-1*/
+.ico40-people-select {background-position: -2760px -23px; } /*REF ico23 120-2*/
+.ico40-user-key {background-position: -2783px 0; } /*REF ico23 121-1*/
+.ico40-user-key-select {background-position: -2783px -23px; } /*REF ico23 121-2*/
+.ico40-notkey {background-position: -2806px 0; } /*REF ico23 122-1*/
+.ico40-notkey-select {background-position: -2806px -23px; } /*REF ico23 122-2*/
+.ico40-lamp { background-position: -2898px 0; } /*REF ico23 126-1*/
+.ico40-check-green {background-position: -2944px 0;} /*REF ico23 128-1*/
+
+.ico-cloud-download { background-position: -2714px  0; } /*REF ico23 118-1*/
+.ico-cloud-upload{ background-position: -2737px 0; } /*REF ico23 119-1*/
+.ico-gray-cloud-download { background-position: -3335px  0; } /*REF ico23 145-1*/
+
+.ico50-config-view{background-position:-2691px 0;}/*REF ico23 117-1*/
+.ico50-config-blocked{background-position:-2668px -0; } /*REF ico23 116-1*/
+.ico-config-blocked{background-position:-2668px -0; } /*REF ico23 116-1*/
+.ico-chat-ballon{background-position:-2645px -0;} /*REF ico23 115*/
+.ico50-share { background-position: -3404px 0; } /*REF ico23 148-1 */
+.ico50-permission { background-position: -3082px 0; } /*REF ico23 134-1*/
+.ico50-config-sender{background-position: -3427px 0; } /*REF ico23 149-1 */
+.ico50-config-replyto{background-position: -3450px 0; }  /*REF ico23 150-1*/
+.ico50-cell-flip{background-position: -3243px 0; }  /*REF ico23 141-1*/
+
+.ico55-chat{background-position: -1760px 0; } /*REF ico110 16-1*/
+.ico55-telephone{background-position: -2200px 0;} /*REF ico110 20-1*/
+.ico55-preview{background-position: -3630px 0;} /*REF ico110 33-1*/
+.ico55-desktop{background-position: -3740px 0;} /*REF ico110 34-1*/
+.ico55-mobile{background-position: -3850px 0;} /*REF ico110 35-1*/
+.ico55-mobile-flip{background-position: -3960px 0;} /*REF ico110 36-1*/
+.ico55-play{background-position: -4730px 0; } /*REF ico110 43-1*/
+.ico100-telephone{background-position: -2200px 0;} /*REF ico110 20-1*/
+.ico55-basket{background-position: -5720px 0;} /*REF ico110 52-1*/
+/*  */
+.ico60-email-fast { background-position: -2310px -110px; } /*REF ico110 21-2*/
+.ico60-email-slow { background-position: -3190px 0; } /*REF ico110 29-1*/
+.ico60-ab-message {background-position: -2750px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab;} /*REF ico110 25-1*/
+.ico60-ab-subject {background-position: -2860px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab; } /*REF ico110 26-1*/
+.ico60-ab-sender {background-position: -2970px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab; } /*REF ico110 27-1*/
+.ico60-ab-dynamic {background-position: -2860px -110px; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #df5a48;  } /*REF ico110 26-2*/
+.ico60-tag { background-position: -3300px 0; } /*REF ico110 30-1*/
+.ico60-email-pontual {background-position: -2970px 0; } /*REF ico110 27-1*/
+.ico60-email-clock-fast{background-position: -3080px 0;} /*REF ico110 28-1*/
+.ico60-email-clock-slow{background-position: -3080px -110px;} /*REF ico110 28-2*/
+.ico60-email-editor-src{background-position: -4070px 0;} /*REF ico110 37-1*/
+.ico60-email-editor-saved{background-position: -4070px -110px;} /*REF ico110 37-2*/
+.ico60-email-dragdrop{background-position: -4180px 0;} /*REF ico110 38-1*/
+.ico60-email-dragdrop-saved{background-position: -4180px -110px;} /*REF ico110 38-2*/
+.ico60-email-upload{background-position: -4290px 0;} /*REF ico110 39-1*/
+.ico60-email-upload-zip{background-position: -13090px 0;}/*REF ico110 119-1*/
+.ico60-email-url-src{background-position: -4400px 0;} /*REF ico110 40-1*/
+.ico60-email-url-send{background-position: -4510px 0;} /*REF ico110 41-1*/
+.ico60-email-prev-send{background-position: -4620px 0;} /*REF ico110 42-1*/
+.ico60-email-model-send{background-position: -5830px 0;} /*REF ico110 53-1*/
+.ico60-email-letters{background-position: -5180px 0;} /*REF ico110 47-1*/
+
+.ico60-popover { background-position: -12650px 0; } /*REF ico110 115-1*/
+.ico60-scrollbox { background-position: -12870px 0; } /*REF ico110 117-1*/
+.ico60-topbar { background-position: -12760px 0; } /*REF ico110 116-1*/
+
+.ico62-lamp { background-position: -2898px 0; } /*REF ico23 126-1*/
+
+.ico80-email-configure{background-position: -2420px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab;} /*REF ico110 22-1*/
+.ico80-email-prepare{background-position: -2310px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab;} /*REF ico110 21-1*/
+.ico80-info-public{background-position: -2090px 0; border-radius:50%;-moz-border-radius: 50%;-webkit-border-radius: 50%; background-color: #39a3ab; } /*REF ico110 19-1*/
+
+.ico90-big-notkey {background-position: -2852px 0;} /*REF ico23 124-1*/
+.ico90-big-people {background-position: -2829px 0; } /*REF ico23 123-1*/
+
+.ico100-dash-send{background-position: 0 0;} /*REF ico110 0-1*/
+.ico100-dash2-send{background-position: -2310px 0;} /*REF ico110 21-1*/
+.ico100-clock-send{background-position: -3080px 0;} /*REF ico110 28-1*/
+
+.ico110-dispositives { background-position: -3410px 0; } /*REF ico110 31-1*/
+.ico110-expirationtime { background-position: -5390px 0; } /*REF ico110 49-1*/
+
+.ico150-icon-help{background-position: -2530px 0;} /*REF ico110 23-1*/
+
+.radio-bar{
+	background-color:#EAEEEF; width:100%; height:67px;
+}

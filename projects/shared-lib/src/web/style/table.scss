@@ -1,0 +1,181 @@
+
+.dinux-Grid-Table {
+	width: 100%;
+	table-layout: fixed;
+    // margin-bottom:30px;
+    > thead > tr {
+        height: 41px;
+        background-color: #4A5769;
+        color: #fff;
+        border-right: 2px solid #4A5769;
+        border-left: 2px solid #4A5769;
+        border-bottom: 1px solid #BAC1C7;
+        > th {
+            padding-left: 20px;
+            padding-right: 20px;
+            border-right: 1px solid #BAC1C7;
+            > div {
+                position: relative;
+                display: flex;
+                justify-content: center;
+            }
+            .menu {
+                position: absolute;
+                top: -10px;
+                right: -10px;
+            }
+            &:last-child {
+                border-right: none;
+            }
+        }
+    }
+    > tbody > tr {
+        height: 42px;
+        border-right: 2px solid #BAC1C7;
+        border-left: 2px solid #BAC1C7;
+        transition: background-color 0.2s ease;
+        &:hover {
+            background-color: #cce6f0 !important;
+        }
+        &.select:hover {
+            background-color: #F0F0B4 !important;
+        }
+        &.rowGroup > td {
+            background-color: #ABB0B7;
+            padding-left: 42px;
+            color: #fff;
+        }
+        &.dataRow:nth-of-type(2n+1) {
+            background-color: #FFFFFF;
+        }
+        &.dataRow:nth-of-type(2n) {
+            background-color: #F2F2F2;
+        }
+        &.select {
+            background-color: #FFFFBF !important;
+        }
+        &:last-child {
+            border-bottom: 2px solid #BAC1C7;
+        }
+        > td {
+            border-right: 1px solid #BAC1C7;
+            line-height: 23px;
+            padding:0 20px;
+            .texto{
+                &:empty{
+                    display:none;
+                }
+                &:empty + .icone .ico{margin-left:0px;}
+                // > div {
+                //     line-height: 23px;
+                // }
+            }
+            .icone{
+                &:empty{
+                    display:none;
+                }
+            }
+            .text {
+                overflow: hidden;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+            }
+            .moreText {
+                display: none;
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-color: #fff;
+                padding-top: 0;
+                z-index: 1;
+                > span {
+                    display: block;
+                    word-break: break-all;
+                }
+            }
+        }
+        .ico {
+            float: left;
+            margin-left: 5px;
+        }
+        &:last-child {
+            border-right: none;
+        }
+        .optionPlus {
+            position: absolute;
+            top: -9px;
+            left: -42px;
+            width: 38px;
+            height: 37px;
+            background-color: #fff;
+            border: 2px solid #BAC1C7;
+            border-bottom-left-radius: 6px;
+            border-top-left-radius: 6px;
+            z-index: 10;
+            &:hover > .optionList {
+                display: block !important;
+            }
+            > .ico {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            }
+            > .optionList {
+                position: absolute;
+                display: none;
+                background-color: #49576A;
+                border-bottom-right-radius: 6px;
+                border-top-right-radius: 6px;
+                padding-left: 7px;
+                padding-right: 7px;
+                top: -2px;
+                left: 39px;
+                height: 41px;
+                > div {
+                    float: left;
+                    margin-top: 9px;
+                    margin-left: 3px;
+                    margin-right: 3px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .percBar {
+            position: absolute;
+            width: 100%;
+            top: -9px;
+            left: 0;
+            height: 42px;
+            > .line {
+                position: absolute;
+                background-color: #0084B2;
+                height: 2px;
+                bottom: 0;
+            }
+            > .value {
+                position: absolute;
+                right: 15px;
+                top: 10px;
+                font-size: 22px;
+                color: #BEC5CB;
+            }
+        }
+    }
+    .tooltip{margin-left:5px;}
+    .optionList{
+        .ico {
+            float: left;
+            margin-left: 0px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    }
+}
+.table-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

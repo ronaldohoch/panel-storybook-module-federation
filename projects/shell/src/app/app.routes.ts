@@ -30,4 +30,15 @@ export const routes: Routes = [
       })
       .then(m => m.mfe2Routes)
   },
+  {
+    path:'mkt-config',
+    loadChildren: () =>
+      loadRemoteModule({
+        type: 'manifest',
+        // remoteEntry: 'http://localhost:4202/remoteEntry.js',
+        remoteName:'mkt-config',
+        exposedModule: './routes'
+      })
+      .then(m => m.mktConfigRoutes)
+  },
 ];

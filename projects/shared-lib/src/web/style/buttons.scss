@@ -1,0 +1,145 @@
+button{
+    &.ico,
+    &.btn{border:none;}
+}
+a.btn{
+    display:inline-block;
+    &:hover{
+        color:#fff;
+    }
+}
+.btn{
+    background-color: #5C6D7D;
+	border-radius: 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-weight: bold;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	font-size: 13px;
+    &.full-width{
+        width:100%;
+    }
+    @include defaul-transition;
+    &:hover{
+        @include defaul-transition;
+    }
+    &.btn-secondary{
+        background-color: #586A7B;
+        &:hover{
+            background-color:#384a5b;
+        }
+    }
+    &.btn-third{
+        background-color: #dee1e3;
+        &:hover{
+            background-color:#5b6c7d;
+        }
+    }
+    &.btn-simple-blue {
+        background-color: #4A5765;
+        &:hover {
+            background-color: #6D7886;
+        }
+    }
+    &.select-field {
+        background-color: transparent;
+        padding: 0 0 0 10px;
+        color:#777f86;
+        font-weight: normal;
+        font-size:14px;
+        .ico-arrow-v{margin-top:6px;}
+        &:hover {
+            background-color: transparent;
+        }
+    }
+    &.select-field-option{
+        background-color:#fff;
+        &:nth-of-type(2n+1) {background-color: #F2F2F2;}
+        &:hover{
+            background-color:#D9EDF4;
+        }
+    }
+    &.btn-simple-cyan{
+        background-color:#41BAC2;
+    }
+
+    // .select-field{
+    //     display: block;
+    //     height: 40px;
+    //     padding: 0 0 0 10px;
+    //     overflow: hidden;
+    //     position: relative;
+    //     white-space: nowrap;
+    //     line-height: 40px;
+    //     text-decoration: none;
+    // }
+
+    &.valid-now{
+        height: 29px;
+        line-height: 29px;
+        font-size:13px;
+    }
+    &.ico-left-side{
+        .ico{
+            float:left;
+            margin:8px 8px 8px 0;
+        }
+    }
+
+    &.ico-right-side{
+        .ico{
+            float:right;
+            margin:8px 0 8px 8px;
+        }
+    }
+}
+
+//Não sei o motivo, mas no componente de dropdown
+//Não está pegando o css de botões adicionados
+//dinamicamente
+.select-field-option{
+    .btn, .btn:hover{
+        background-color: transparent;
+        color:#777f86;
+        font-weight: normal;
+        width: 100%;
+        display: inline-block;
+        box-sizing: border-box;
+    }
+}
+
+.table-buttons{
+    position:relative;
+    width:100px;
+    height:38px;
+    &:before{
+        content:"";
+        height:80%;
+        position:absolute;
+        left:0;
+        right:0;
+        bottom:0;
+        top:0;
+        margin:auto;
+        width:1px;
+        background:#fff;
+    }
+    .btn{
+        width:50px;
+        background-color:#4A5768;
+        margin:0;
+        &.disable{
+            background-color:#929ead;
+            cursor:default;
+            &:hover{background-color: #929ead;}
+        }
+        &:hover{background-color: #6D7886;}
+        &:nth-child(1){border-top-right-radius: 0;border-bottom-right-radius: 0;}
+        &:nth-child(2){border-top-left-radius: 0;border-bottom-left-radius: 0;}
+        .ico-table-arrow-left{position: relative;left: -3px;}
+        .ico-table-arrow-right{position: relative;right: -3px;}
+    }
+    
+}

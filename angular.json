@@ -482,6 +482,7 @@
 							"projects/mkt-config/src/assets"
 						],
 						"styles": [
+              "@angular/material/prebuilt-themes/indigo-pink.css",
 							"projects/mkt-config/src/styles.scss"
 						],
 						"scripts": []

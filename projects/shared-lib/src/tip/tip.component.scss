@@ -1,0 +1,33 @@
+.gray-box{
+  ul{padding-top:0;}
+  .description{
+      height:58px;
+      p{
+          font-size:14px;
+      }
+  }
+  .image{
+      min-width:150px;
+      height:115px;
+      img{height:100%;margin:0 auto;display: block;}
+  }
+  .button{height:58px;margin-left:20px;}
+  .close-box{
+      position:absolute;
+      top:0;
+      right:0;
+  }
+  .download-pdf{
+      &:hover,&:focus,&:active{color:#fff;}
+      color:#fff;
+  }
+  .tip-close{
+      cursor: pointer;
+      background-position: -460px 0;
+      right: -9px;
+      top: -9px;
+      &:hover{
+          background-position: -460px -23px;
+      }
+  }
+}

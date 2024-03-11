@@ -1,0 +1,71 @@
+/*
+
+    Coisas aleatórias que se repetem em alguns lugares
+    Não tão grandes suficientes para ser criado um novo component
+    E não tão pequeno para ficar em um módulo do angular
+
+    ou coisas sem lugar definido 🤔
+
+*/
+
+.content-btn.grid-headerbar {
+    background-color: #EAEEEF;
+    padding: 7px 7px 7px 7px;
+    height: 38px;
+    &.right-content{
+        display:flex;
+        justify-content: flex-end;
+    }
+}
+
+.dinux-Grid-Navigation {
+    height: 52px;
+    background-color: #EAEEEF;
+    padding-right: 20px;
+    padding-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    strong{font-weight: bold;}
+}
+.itens-per-page{
+    padding: 9px 6px;
+    margin: 0 .5rem;
+    width: 61px;
+}
+
+//<hr>
+.hr-dotted {
+    border: 0;
+    border-top: 1px dotted #D8D8DF;
+    margin: 0;
+    margin-right: 20px;
+}
+.m-sm {
+    margin: 15px;
+}
+
+
+/* Dotted Tree */
+.directory-tree > li li::before{ content: ""; border-left: 2px dotted #808080; height: 100%; left: 20px; position: absolute; width: 0; }
+.directory-tree > li li:last-child::before{ height: 20px; }
+.directory-tree > li li::after{ content: ""; border-top: 2px dotted #808080; width: 20px; height: 0; left: 20px; top: 18px; position: absolute; }
+
+.dotted-tree-regular-element{ position: relative; }
+.dotted-tree-regular-element::before{ content: ""; border-left: 2px dotted #808080; height: 20px; left: 0; position: absolute; width: 0; }
+.dotted-tree-regular-element::after{ content: ""; border-top: 2px dotted #808080; width: 20px; height: 0; left: 0; top: 18px; position: absolute; }
+
+.dotted-tree-regular-element-full{ position: relative; }
+.dotted-tree-regular-element-full::before{ content: ""; border-left: 2px dotted #808080; height: 100%; left: 0; position: absolute; width: 0; }
+.dotted-tree-regular-element-full::after{ content: ""; border-top: 2px dotted #808080; width: 20px; height: 0; left: 0; top: 18px; position: absolute; }
+
+.dotted-tree { list-style: none; }
+.dotted-tree > div { position: relative; display: block;}
+.dotted-tree > li { position: relative; display: block; }
+.dotted-tree-leaf-content { margin-left: -28px; padding-left: 30px; min-height: 50px; }
+
+.li-errors{
+	display: table;
+	padding-bottom: 10px;
+}

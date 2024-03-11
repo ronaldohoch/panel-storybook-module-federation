@@ -1,0 +1,52 @@
+.dina-content-tabs{
+  color: #8d99a4;
+  background-color: #5c6d7d;
+  padding-left:0;
+  li{
+      display: inline-table;
+      list-style: none;
+      cursor: pointer;
+      position:relative;
+
+      padding: 16px 24px 16px 24px;
+      font-size: 12px;
+      transition:all 250ms ease;
+      overflow: hidden;
+      &:before{
+          content: "";
+          width: 0;
+          height: 0;
+          background: transparent;
+          position: absolute;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          margin: auto;
+          border-bottom: 8px solid #fff;
+          border-left: 8px solid transparent;
+          border-right: 8px solid transparent;
+          border-top: 8px solid transparent;
+          transition:all 250ms ease;
+          transform:translateY(10px)
+      }
+      &.selected, &:hover{
+          transition:all 250ms ease;
+          background-color: #0C74AC;
+          color:#fff;
+      }
+      &.selected:hover:before,
+      &.selected:before{
+          transition:all 250ms ease;
+          transform:translateY(0px)
+      }
+      &:hover:before{
+          transition:all 250ms ease;
+          transform:translateY(5px)
+      }
+  }
+}
+
+.dina-content-body{
+  background:#fff;
+  padding:50px 2em 2em 2em;
+}

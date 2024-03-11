@@ -1,0 +1,3 @@
+@mixin defaul-transition($types:all, $duration:250ms, $timming:ease){
+    transition:$types $duration $timming;
+}

@@ -1,0 +1,32 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'helveticaLight';
+    src: url('../fonts/HelveticaNeueLight.ttf');
+    src: url('../fonts/HelveticaNeueLight.ttf') format('embedded-opentype'),
+    url('../fonts/HelveticaNeueLight.ttf') format('truetype'),
+    url('../fonts/HelveticaNeueLight.woff') format('woff'),
+    url('../fonts/HelveticaNeueLight.otf') format('otf'),
+    url('../fonts/HelveticaNeueLight.eot') format('eot');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.report-title{
+    font-size:14px;
+    line-height: 20px;
+    color:#596C7E;
+    font-weight:bold;
+    margin-bottom:20px;
+}
+.report-text{
+    line-height: 20px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #9797A5;
+}
+
+.blue-title {
+    color: #0080B9;
+    font-size: 26px;
+    font-weight: bold;
+}

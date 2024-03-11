@@ -1,0 +1,20 @@
+<div class="gray-box" *ngIf="showTip" @fadeIn>
+  <button class="ico tip-close close-box" (click)="close()"></button>
+  <ul>
+      <li class="image">
+          <img [attr.src]="image" class="image-loading"/>
+      </li>
+      <li class="title">
+          <p>{{title}}</p>
+      </li>
+      <li class="divisor"></li>
+      <li class="description">
+          <p>{{description}}</p>
+      </li>
+      <li class="button">
+          <a [href]="linkDownload" target="_blank" class="btn btn-simple-cyan ico-left-side download-pdf">
+              <span class="ico ico-cloud-download"></span> Download PDF
+          </a>
+      </li>
+  </ul>
+</div>

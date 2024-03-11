@@ -1,0 +1,33 @@
+.box-icon{
+    &.grey-box{background-color: #EFF3F5;}
+    &.no-padding{padding:0;}
+    padding:25px;
+    margin-bottom:2rem;
+    .box-header{
+        display: flex;
+        margin-bottom:1rem;
+    }
+
+    .box-icon-icon ~ .box-description{margin-left:1rem;}
+    .box-title{
+        color: #0080B9;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .box-title-description{
+        font-size: 12px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+    .box-body-buttons{
+        margin-top:10px;
+        &.buttons-right{
+            text-align: right;
+            button,a{margin-left:10px;}
+        }
+        &.buttons-left{
+            text-align: left;
+            button,a{margin-right:10px;}
+        }
+    }
+}
