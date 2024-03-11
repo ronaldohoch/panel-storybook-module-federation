@@ -25,6 +25,9 @@
       "@dinamize/ui": [
         "./dist/ui/*",
         "./dist/ui"
+      ],
+      "shared-lib": [
+        "./projects/shared-lib/src/public-api.ts"
       ]
     },
     "lib": [

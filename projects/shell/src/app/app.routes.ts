@@ -1,8 +1,13 @@
 import { Routes } from '@angular/router';
 
 import { loadRemoteModule } from '@angular-architects/module-federation';
+import { EmptyComponent } from './empty/empty.component';
 
 export const routes: Routes = [
+  {
+    path:'',
+    component:EmptyComponent
+  },
   {
     path:'mfe1', //mother phocker experience
     loadChildren: () =>
