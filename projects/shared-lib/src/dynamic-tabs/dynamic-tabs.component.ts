@@ -2,12 +2,12 @@ import { Component, ContentChildren, EventEmitter, Output, QueryList } from '@an
 
 import { DynamicTabItemComponent } from './dynamic-tab-item/dynamic-tab-item.component';
 import { Observable, delay, map, startWith } from 'rxjs';
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'lib-dynamic-tabs',
   standalone: true,
-  imports: [BrowserModule],
+  imports: [CommonModule],
   templateUrl: './dynamic-tabs.component.html',
   styleUrl: './dynamic-tabs.component.scss'
 })

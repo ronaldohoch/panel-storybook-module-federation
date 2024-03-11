@@ -17,3 +17,5 @@ export * from './how-configure-domains/how-configure-domains.component'
 export * from './tip/tip.component'
 //page title
 export * from './page-title/page-title.component'
+//Dynamic tabs
+export * from './dynamic-tabs/'
