@@ -1,0 +1,5 @@
+<ul class="dina-tabs">
+  <li *ngFor="let tab of Tabs" class="{{tab.customClass}}" [ngClass]="{'selected':tab.selected}" routerLinkActive="selected">
+      <a [routerLink]="tab.link">{{tab.title}}</a>
+  </li>
+</ul>

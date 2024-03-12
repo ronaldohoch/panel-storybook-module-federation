@@ -1,0 +1,19 @@
+<div class="relative">
+  <button class="btn select-field ico-right-side" [ngClass]="{'open':open}" (click)="openDropdown()" *ngIf="ButtonLabel!=''">
+      {{ButtonLabel}}
+      <span class="ico ico-arrow-v"></span>
+  </button>
+  <ul #list class="" *ngIf="open" [style.width.px]="ListWidth"
+      [ngClass]="{'select-field-list':ButtonLabel!='',
+                  'simple-icon-list':ButtonLabel=='',
+                  'bottom':position=='bottom',
+                  'top':position=='top'
+              }">
+      <li *ngFor="let item of optionItems$ | async" [ngClass]="{'select-field-option':ButtonLabel!=''}">
+          <ng-container>
+            <ng-container *ngTemplateOutlet="item.itemContent">
+            </ng-container>
+          </ng-container>
+      </li>
+  </ul>
+</div>

@@ -1,0 +1,58 @@
+@import '../web/style/mixins.scss';
+.select-field {
+    background-color: transparent;
+    padding: 0 0 0 10px;
+    color:#777f86;
+    font-weight: normal;
+    font-size:14px;
+    position:relative;
+    z-index:1;
+    border-radius:0;
+    text-align: left;
+    &.open{
+        width:103px;
+        box-shadow: -1px -1px 0 1px #49576a,
+                    1px -1px 0 1px #49576a,
+                    -3.5px -3.5px 0 3.5px #dce0e3,
+                    4.5px -4.5px 0 2.5px #dce0e3;
+    }
+    .ico-arrow-v{margin-top:6px;}
+    &:hover {
+        background-color: transparent;
+    }
+}
+.select-field-list{
+    position:absolute;
+    z-index:2;
+    box-shadow: 0px 0 0 2px #49576a,
+                5px 5px 0 2px #dce0e3,
+                -3px 2px 0 4px #dce0e3,
+                57px -57px 0 -50px #dce0e3;
+    &.bottom{
+        bottom:0;
+    }
+    &.top{
+        bottom:42px;
+    }
+}
+.select-field-option{
+    background-color:#fff;
+    border-radius:0;
+    padding:0px 10px;
+    &:nth-of-type(2n+1) {background-color: #F2F2F2;}
+    &:hover{
+        background-color:#D9EDF4;
+    }
+    //Migrado para @dinamize/ui/lib/web/style/buttons.scss
+    // .select-field-option{
+    //     .btn, .btn:hover{
+    //     }
+    // }
+}
+
+.simple-icon-list{
+    li{
+        display: inline-block;
+        margin:0 2.5px;
+    }
+}

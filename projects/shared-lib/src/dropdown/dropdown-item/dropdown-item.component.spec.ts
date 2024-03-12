@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SharedLibComponent } from './shared-lib.component';
+import { DropdownItemComponent } from './dropdown-item.component';
 
-describe('SharedLibComponent', () => {
-  let component: SharedLibComponent;
-  let fixture: ComponentFixture<SharedLibComponent>;
+describe('DropdownItemComponent', () => {
+  let component: DropdownItemComponent;
+  let fixture: ComponentFixture<DropdownItemComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [SharedLibComponent]
+      imports: [DropdownItemComponent]
     })
     .compileComponents();
     
-    fixture = TestBed.createComponent(SharedLibComponent);
+    fixture = TestBed.createComponent(DropdownItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

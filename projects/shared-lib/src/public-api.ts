@@ -2,8 +2,6 @@
  * Public API Surface of shared-lib
  */
 
-export * from './lib/shared-lib.service';
-export * from './lib/shared-lib.component';
 /**
  * @dinamize/ui
  */
@@ -19,3 +17,7 @@ export * from './tip/tip.component'
 export * from './page-title/page-title.component'
 //Dynamic tabs
 export * from './dynamic-tabs/'
+//drop down
+export * from './dropdown/'
+//tab link
+export * from './tab-link/tab-link.component'
