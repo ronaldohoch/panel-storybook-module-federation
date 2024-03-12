@@ -1,11 +1,11 @@
 import { Component, TemplateRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'lib-dynamic-tab-label',
+  selector: 'lib-tab-content-label',
   standalone: true,
   imports: [],
   template: '<ng-template><ng-content ></ng-content></ng-template>'
 })
-export class DynamicTabLabelComponent {
+export class TabContentLabelComponent {
   @ViewChild(TemplateRef) labelContent!: TemplateRef<any>;
 }

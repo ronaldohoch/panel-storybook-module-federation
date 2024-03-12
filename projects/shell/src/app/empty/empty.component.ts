@@ -5,6 +5,9 @@ import { PageTitleComponent } from '@dinamize/ui'
 import { DynamicTabsComponent, DynamicTabBodyComponent, DynamicTabItemComponent, DynamicTabLabelComponent } from '@dinamize/ui';
 import { TabLinkComponent } from '@dinamize/ui';
 import { DropdownComponent, DropdownButtonComponent, DropdownItemComponent } from '@dinamize/ui';
+import { TabContentComponent, TabContentBodyComponent, TabContentItemComponent, TabContentLabelComponent } from '@dinamize/ui';
+
+import {} from '@dinamize/ui'
 
 @Component({
   selector: 'shell-empty',
@@ -15,7 +18,8 @@ import { DropdownComponent, DropdownButtonComponent, DropdownItemComponent } fro
     PageTitleComponent,
     DynamicTabsComponent, DynamicTabBodyComponent, DynamicTabItemComponent, DynamicTabLabelComponent,
     DropdownComponent, DropdownButtonComponent, DropdownItemComponent,
-    TabLinkComponent
+    TabLinkComponent,
+    TabContentComponent, TabContentBodyComponent, TabContentItemComponent, TabContentLabelComponent
   ],
   templateUrl: './empty.component.html',
   styleUrl: './empty.component.scss'

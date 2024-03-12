@@ -7,6 +7,8 @@
  */
 // Animations
 export * from './_animations/';
+//services
+export * from './_services';
 // Accordion
 export * from './accordion/';
 //how configure domains
@@ -21,3 +23,5 @@ export * from './dynamic-tabs/'
 export * from './dropdown/'
 //tab link
 export * from './tab-link/tab-link.component'
+//tab with content
+export * from './tab-content/'

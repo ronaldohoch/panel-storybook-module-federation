@@ -1,11 +1,11 @@
 import { Component, TemplateRef, ViewChild } from '@angular/core';
 
 @Component({
-  selector: 'lib-dynamic-tab-body',
+  selector: 'lib-tab-content-body',
   standalone: true,
   imports: [],
-  template:'<ng-template><ng-content></ng-content></ng-template>'
+  template:'<ng-template><ng-content></ng-content></ng-template>',
 })
-export class DynamicTabBodyComponent {
+export class TabContentBodyComponent {
   @ViewChild(TemplateRef) bodyContent!: TemplateRef<any>;
 }

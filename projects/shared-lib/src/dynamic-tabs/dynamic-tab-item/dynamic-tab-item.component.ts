@@ -5,8 +5,7 @@ import { DynamicTabBodyComponent } from '../dynamic-tab-body/dynamic-tab-body.co
   selector: 'lib-dynamic-tab-item',
   standalone: true,
   imports: [],
-  template: "<ng-content></ng-content>",
-  styleUrl: './dynamic-tab-item.component.css'
+  template: "<ng-content></ng-content>"
 })
 export class DynamicTabItemComponent {
   @Input() label!: string;

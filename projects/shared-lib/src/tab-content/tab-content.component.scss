@@ -1,0 +1,26 @@
+.dina-tabs{
+  box-sizing: border-box;
+  position: relative;
+  background-color: #EAEEEF;
+  box-shadow: 0px 3px 0px 0px #ccc inset;
+  padding-left:30px;
+  list-style: none;
+  li{
+      display: inline-table;
+      list-style: none;
+      cursor: pointer;
+      border-top:3px solid #ccc;
+      font-size:14px;
+      text-transform: uppercase;
+      padding: 25px 19px 29px 19px;
+      &:hover{
+          border-top:3px solid #ccc;
+          border-top-color: #5c6d7d;
+      }
+      &.selected{
+          border-top:3px solid #ccc;
+          border-top-color: #0C74AC;
+          color: #0C74AC;
+      }
+  }
+}
