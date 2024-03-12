@@ -1,0 +1,72 @@
+<p class="content-text">
+    Verifique abaixo o status da validação do DKIM para seu(s) domínio(s). Siga as instruções para
+    configurá-los.
+</p>
+
+<table class="dinux-Grid-Table" hasfilter="false">
+    <thead>
+        <tr>
+            <th valuename="domain">
+                Domínio
+            </th>
+            <th valuename="selector">
+                Seletor
+            </th>
+            <th valuename="dkim" style="width: 120px;">
+                Situação
+            </th>
+            <th valuename="{fixed}" style="width: 120px;">
+            </th>
+            <th valuename="{action}" style="width: 25px;">
+                Ação
+            </th>
+        </tr>
+    </thead>
+    <tbody style="visibility: visible;">
+        <tr class="dataRow" itemid="lojalegalteste.com.br">
+            <td>
+                <span>
+                    <div class="text">lojalegalteste.com.br</div>
+                </span>
+            </td>
+            <td class="seletor">
+                <span>
+                    <div class="text">1593700768</div>
+                </span>
+            </td>
+            <td class="dkim">
+                <div class="ico ico-error-cross"></div>
+                <div class="uppercase">
+                    Não validado
+                </div>
+            </td>
+            <td class="dimval">
+                <div style="text-align:center;">
+                    <button class="btn btn-third valid-now" domain="lojalegalteste.com.br">
+                        Validar agora
+                    </button>
+                </div>
+            </td>
+            <td>
+                <div class="optionList">
+                    <dina-tooltip [isAction]='true' text='Download' iconClass="ico-gray-cloud-download"></dina-tooltip>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<dina-config-domains></dina-config-domains>
+
+<div class="">
+    <p class="report-title">O que é DKIM?</p>
+    <p class="report-text">DKIM (DomainKeys Identified Mail) Consiste em assinar as mensagens com uma chave pública, certificada ou não, para garantir a autenticidade do remetente. Ao contrário do SPF, que verifica o envelope, o DKIM verifica o cabeçalho da mensagem. Esta técnica acarreta um custo computacional adicional por mensagem, tanto para o MTA remetente quanto para o MTA destino.</p><br /><br />
+    
+    <p class="report-title">Configurando o DKIM</p>
+    <p class="report-text">Selecione o domínio na tabela e em seguida faça o download do arquivo que contém o texto para incluir no arquivo de configuração DNS de seu domínio. O texto a ser incluído possui o formato "selector._domainkey.domínio".</p>
+</div>
+
+
+
+
+

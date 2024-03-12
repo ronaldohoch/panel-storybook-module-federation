@@ -1,0 +1,99 @@
+<div class="box-icon no-padding">
+    <div class="box-header no-icon">
+        <div class="box-description">
+            <p class="box-title">Opções de opt-out</p>
+            <p class="box-title-description">Você pode escolher como será o fluxo de descadastro do usuário de acordo com as opções abaixo.</p>
+        </div>
+    </div>
+    <div class="box-body">
+        <ul class="opt-out-list">
+            <li>
+                <label>
+                    <input name="opt-out-group" type="radio" (change)="showMotivations=false"> Sem confirmação
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input name="opt-out-group" type="radio" (change)="showMotivations=false"> Com confirmação
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input name="opt-out-group" type="radio" (change)="showMotivations=true"> Com motivos
+                </label>
+            </li>
+            <li *ngIf="showMotivations">
+                <div class="dotted-tree" name="optout_openList">
+                    <div class="dotted-tree-regular-element" style="margin-left:6px">
+                        <div style="padding: 10px 20px;background: #EFF3F5;border-radius: 4px;margin-left: 30px;">
+                            <p>Os motivos de opt-out estão relacionados a uma lista de contatos. <a class="link-content" id="link_openList" name="link_openList">Salvar e gerenciar os seus motivos.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="box-body-buttons buttons-left">
+            <button class="btn">Salvar</button>
+        </div>
+    </div>
+</div>
+
+<div class="box-icon no-padding">
+    <div class="box-header">
+        <div class="box-description">
+            <p class="box-title">E-mail de remoção de opt-out</p>
+            <p class="box-title-description">Aqui você configura qual nome e e-mail de remetente irá utilizar, para o envio de e-mail cliente, com um link para ser clicado e ele voltar a receber os seus envios.</p>
+        </div>
+    </div>
+</div>
+
+<div class="box-icon grey-box">
+    <div class="box-header">
+        <div class="box-icon-icon">
+            <div class="ico50 ico50-config-sender"></div>
+        </div>
+        <div class="box-description">
+            <p class="box-title">Remetente</p>
+            <p class="box-title-description">Identifica o nome do remetente que está enviando sua mensagem</p>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="box-body-buttons buttons-left">
+            <button class="btn">Salvar</button>
+        </div>
+    </div>
+</div>
+
+<div class="box-icon grey-box">
+    <div class="box-header">
+        <div class="box-icon-icon">
+            <div class="ico50 ico50-config-replyto"></div>
+        </div>
+        <div class="box-description">
+            <p class="box-title">E-mail do remetente</p>
+            <p class="box-title-description">Identifica quem está enviando sua mensagem</p>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="box-body-buttons buttons-left">
+            <button class="btn">Salvar</button>
+        </div>
+    </div>
+</div>
+
+<div class="box-icon grey-box">
+    <div class="box-header">
+        <div class="box-icon-icon">
+            <div class="ico50 ico-chat-ballon"></div>
+        </div>
+        <div class="box-description">
+            <p class="box-title">Idioma</p>
+            <p class="box-title-description">Identifica o idioma da sua mensagem</p>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="box-body-buttons buttons-left">
+            <button class="btn">Salvar</button>
+        </div>
+    </div>
+</div>

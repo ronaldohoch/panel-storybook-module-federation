@@ -1,0 +1,109 @@
+<p class="content-text">
+    Verifique abaixo o status da validação do SPF e do CNAME para seu(s) domínio(s). Siga as instruções para
+    configurá-los.
+</p>
+
+<table class="dinux-Grid-Table" hasfilter="false">
+    <thead>
+        <tr>
+            <th valuename="domain">
+                Domínio
+                <!-- <div class="table-flex"> </div> -->
+            </th>
+            <th valuename="spf" style="width: 60px;">
+                <div class="table-flex">
+                    <span>SPF</span> 
+                    <dina-tooltip text="O SPF (Sender Policy Framework) é uma tecnologia que visa combater o envio não autorizado de mensagens em nome de um determinado domínio, especificando quais são os hosts / IPs autorizados realizar envios em nome de seu domínio. Em outras palavras, é uma permissão para que possamos enviar e-mails por você"></dina-tooltip>
+                </div>
+            </th>
+            <th valuename="entry_image" style="width: 150px;">
+                <div class="table-flex">
+                    CNAME | Imagens 
+                    <dina-tooltip text=""></dina-tooltip>
+                </div>
+            </th>
+            <th valuename="entry_link" style="width: 130px;">
+                <div class="table-flex">
+                    CNAME | Links 
+                    <dina-tooltip text=""></dina-tooltip>
+                </div>
+            </th>
+            <th valuename="entry_spf" style="width: 130px;">
+                <div class="table-flex">
+                    CNAME | SPF 
+                    <dina-tooltip text=""></dina-tooltip>
+                </div>
+            </th>
+            <th valuename="{fixed}" style="width: 60px;">
+                <div></div>
+            </th>
+            <th valuename="{action}" style="width: 50px;">
+                <div>Ação</div>
+            </th>
+        </tr>
+    </thead>
+    <tbody style="visibility: visible;">
+        <tr class="dataRow" itemid="lojalegalteste.com.br">
+            <td>
+                <span class="texto">lojalegalteste.com.br</span>
+                <!-- <div class="table-flex">
+                </div> -->
+            </td>
+            <td class="spf">
+                <div class="table-flex">
+                    <span class="texto"></span>
+                    <div class="icone">
+                        <div class="ico ico-error-cross"></div>
+                    </div>
+                </div>
+            </td>
+            <td class="cname">
+                <div class="table-flex">
+                    <span class="texto">lojimage</span>
+                    <div class="icone">
+                        <div class="ico ico-success"></div>
+                    </div>
+                </div>
+            </td>
+            <td class="cname">
+                <div class="table-flex">
+                    <span class="texto">lojlink</span>
+                    <div class="icone">
+                        <div class="ico ico-success"></div>
+                    </div>
+                </div>
+            </td>
+            <td class="cname">
+                <div class="table-flex">
+                    <span class="texto">lojspf</span>
+                    <div class="icone">
+                        <div class="ico ico-success"></div>
+                    </div>
+                </div>
+            </td>
+            <td>
+                <div class="table-flex">
+                    <button class="btn btn-third valid-now" onclick="javascript:void(0);" domain="lojalegalteste.com.br">Validar</button>
+                </div>
+            </td>
+            <td>
+                <div class="table-flex">
+                    <div class="optionList">
+                        <dina-tooltip [isAction]='true' text='Editar' iconClass="ico-item-edit"></dina-tooltip>
+                        <dina-tooltip [isAction]='true' text='Compartilhar' iconClass="ico-grid-share"></dina-tooltip>
+                        <!-- <div class="ico ico-item-edit content-float-left" style="cursor: pointer;"></div>
+                        <div class="ico ico-grid-share content-float-left" style="cursor: pointer;"></div> -->
+                    </div>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<dina-config-domains></dina-config-domains>
+
+<div class="">
+    <p class="report-title">Por que essa validação é importante?</p>
+    <p class="report-text">Quando você inicia a utilização de ferramentas de email marketing, o processo de envio é realizado da seguinte forma: você realiza o envio com seu endereço de remetente (seuemail@seudominio.com.br) porém seu envio é realizado pela infraestrutura de envio (servidores e IPS de envio) da ferramenta.</p><br />
+    <p class="report-text">Ao iniciar suas atividades de e-mail marketing, é solicitado que realize duas configurações: a de SPF e de CNAME. Essas configurações visam evitar que seus envios sejam apontados como spam por seus destinatários, fazendo com que seu e-mail seja reconhecido como confiável para recebimento.</p>
+</div>

@@ -5,6 +5,7 @@ module.exports = withModuleFederationPlugin({
   name: 'mkt-config',
 
   exposes: {
+    './routes': './projects/mkt-config/src/app/mkt-config.routes.ts',
     './Component': './projects/mkt-config/src/app/app.component.ts',
   },
 

@@ -1,0 +1,14 @@
+.opt-out-list{
+    margin-left:2rem;
+    margin-bottom:2rem;
+    li{
+        margin: 15px 0 15px 15px;
+        input[type=radio]{
+            width:18px;height:18px;
+            position:relative;top:4px;
+        }
+        label{
+            font-size:14px;
+        }
+    }
+}
