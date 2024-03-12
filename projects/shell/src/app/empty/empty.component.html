@@ -1,47 +1,52 @@
-<!-- <lib-how-configure-domains></lib-how-configure-domains> -->
-<!-- <div style="max-width: 1120px;margin:0 auto;">
-  <lib-tip
-    image="https://panel.dinamize.com/img/tutorial/pt_br/XX.09.jpg"
-    title="Sua configuração, passo a passo."
-    description="Baixe o tutorial com instruções detalhadas para a padronização de conteúdo."
-    linkDownload="https://www.dinamize.com.br/doc/pt_br/01.09.pdf"
-    [showTip]="showTip"
-    (closeTip)="closeTipEvent()"
-    ></lib-tip>
-</div> -->
+<div style="max-width:1200px; margin:2em auto">
 
-<!-- <lib-page-title title="Página vazia" sectionTitle="Essa página está vazia mesmo, acredite"></lib-page-title> -->
+  <lib-page-title title="Página vazia" sectionTitle="Essa página está vazia mesmo, acredite"></lib-page-title>
 
-<!-- <lib-dynamic-tabs>
-  <lib-dynamic-tab-item>
-      <lib-dynamic-tab-label>Aba 1</lib-dynamic-tab-label>
-      <lib-dynamic-tab-body>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi pellentesque nibh id malesuada dignissim. Curabitur accumsan pellentesque tincidunt. Morbi gravida ligula vitae diam luctus tincidunt. Sed quis lectus vitae magna lacinia pulvinar. Quisque tempus tempus erat, ut cursus mauris luctus non.</lib-dynamic-tab-body>
-  </lib-dynamic-tab-item>
-  <lib-dynamic-tab-item>
-      <lib-dynamic-tab-label>Aba 2</lib-dynamic-tab-label>
-      <lib-dynamic-tab-body>Quisque diam quam, sollicitudin ut vehicula non, fringilla vel nisl. Nulla elementum lorem sed aliquam maximus. Ut pellentesque, enim ac tristique feugiat, tellus est feugiat quam, ac consectetur leo lacus vitae elit. Praesent porttitor cursus finibus. Donec non condimentum ipsum. Vivamus quis augue augue.</lib-dynamic-tab-body>
-  </lib-dynamic-tab-item>
-</lib-dynamic-tabs> -->
+  <lib-tab-link [Tabs]="TabsData"></lib-tab-link>
 
-<!-- <lib-dropdown ButtonLabel='Selecione' ListWidth='340'>
-  <lib-dropdown-item>
-    <a href="" class="btn ico-left-side">
-      Editar
-      <span class="ico ico-edit"></span>
-    </a>
-  </lib-dropdown-item>
-  <lib-dropdown-item>
-    <a href="" class="btn ico-left-side">
-      Script de pop-ups e captação de formulários
-      <span class="ico ico-edit"></span>
-    </a>
-  </lib-dropdown-item>
-  <lib-dropdown-item>
-    <a href="" class="btn ico-left-side">
-      Configurar lead tracking
-      <span class="ico ico-edit"></span>
-    </a>
-  </lib-dropdown-item>
-</lib-dropdown> -->
+  <lib-dynamic-tabs>
+    <lib-dynamic-tab-item>
+      <lib-dynamic-tab-label>Dicas</lib-dynamic-tab-label>
+      <lib-dynamic-tab-body>
+        <lib-tip
+            image="https://panel.dinamize.com/img/tutorial/pt_br/XX.09.jpg"
+            title="Sua configuração, passo a passo."
+            description="Baixe o tutorial com instruções detalhadas para a padronização de conteúdo."
+            linkDownload="https://www.dinamize.com.br/doc/pt_br/01.09.pdf"
+            [showTip]="showTip"
+            (closeTip)="closeTipEvent()"
+            ></lib-tip>
+      </lib-dynamic-tab-body>
+    </lib-dynamic-tab-item>
+    <lib-dynamic-tab-item>
+      <lib-dynamic-tab-label>Domínios</lib-dynamic-tab-label>
+      <lib-dynamic-tab-body>
 
-<!-- <lib-tab-link [Tabs]="TabsData"></lib-tab-link> -->
+        <lib-how-configure-domains></lib-how-configure-domains>
+
+      </lib-dynamic-tab-body>
+    </lib-dynamic-tab-item>
+  </lib-dynamic-tabs>
+</div>
+
+
+  <!-- <lib-dropdown ButtonLabel='Selecione' ListWidth='340'>
+    <lib-dropdown-item>
+      <a href="" class="btn ico-left-side">
+        Editar
+        <span class="ico ico-edit"></span>
+      </a>
+    </lib-dropdown-item>
+    <lib-dropdown-item>
+      <a href="" class="btn ico-left-side">
+        Script de pop-ups e captação de formulários
+        <span class="ico ico-edit"></span>
+      </a>
+    </lib-dropdown-item>
+    <lib-dropdown-item>
+      <a href="" class="btn ico-left-side">
+        Configurar lead tracking
+        <span class="ico ico-edit"></span>
+      </a>
+    </lib-dropdown-item>
+  </lib-dropdown> -->
