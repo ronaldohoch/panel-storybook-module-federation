@@ -14,7 +14,7 @@ export class AuthService {
 
   userInfo(): Observable<any> {
     return this.http
-      .post<any>(`http://panel.mauricio.martini.dina.local/passport/user/info`, {})
+      .post<any>(`http://panel.ronaldo.hoch.dina.local/passport/user/info`, {})
       .pipe(
         tap((data) => {
           if(data.hasOwnProperty('hashId')){

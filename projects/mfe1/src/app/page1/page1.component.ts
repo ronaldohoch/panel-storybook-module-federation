@@ -8,6 +8,7 @@ import { AuthService } from '@dinamize/ui';
 @Component({
   selector: 'mfe1-page1',
   standalone: true,
+  providers:[AuthService],
   imports: [
     MatButtonModule, MatCardModule
   ],

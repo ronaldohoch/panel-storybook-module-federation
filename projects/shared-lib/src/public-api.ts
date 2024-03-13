@@ -9,6 +9,8 @@
 export * from './_animations/';
 //services
 export * from './_services';
+//Interceptor
+export * from './_interceptor/http-interceptor'
 // Accordion
 export * from './accordion/';
 //how configure domains
