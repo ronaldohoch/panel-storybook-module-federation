@@ -1,2 +1,13 @@
+<ul class="dina-tabs">
+  <li *ngFor="let tab of tabs"
+    class="{{tab.customClass}}"
+    [ngClass]="{'selected':tab.selected}"
+  >
+    <a (click)="changeTab(tab)">{{tab.title}}</a>
+  </li>
+</ul>
 
-<router-outlet />
+<ng-container *ngComponentOutlet="selectedTab.component"></ng-container>
+
+
+<router-outlet name="mktconfig"></router-outlet>

@@ -6,10 +6,11 @@ export const mktConfigRoutes: Routes = [
     path:'',
     loadComponent: () => import('./app.component').then(c => c.AppComponent),
     pathMatch:'full'
+
   },
   {
-    path:'send',
-    loadChildren: () => import('./send/send.routes').then(c => c.sendRoutes),
+    path:'config/send',
+    loadComponent: () => import('./send/send/send.component').then(c => c.SendComponent),
   },
   {
     path:'integrations',

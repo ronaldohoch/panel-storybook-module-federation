@@ -12,26 +12,26 @@
             </th>
             <th valuename="spf" style="width: 60px;">
                 <div class="table-flex">
-                    <span>SPF</span> 
-                    <dina-tooltip text="O SPF (Sender Policy Framework) é uma tecnologia que visa combater o envio não autorizado de mensagens em nome de um determinado domínio, especificando quais são os hosts / IPs autorizados realizar envios em nome de seu domínio. Em outras palavras, é uma permissão para que possamos enviar e-mails por você"></dina-tooltip>
+                    <span>SPF</span>
+                    <lib-tip text="O SPF (Sender Policy Framework) é uma tecnologia que visa combater o envio não autorizado de mensagens em nome de um determinado domínio, especificando quais são os hosts / IPs autorizados realizar envios em nome de seu domínio. Em outras palavras, é uma permissão para que possamos enviar e-mails por você"></lib-tip>
                 </div>
             </th>
             <th valuename="entry_image" style="width: 150px;">
                 <div class="table-flex">
-                    CNAME | Imagens 
-                    <dina-tooltip text=""></dina-tooltip>
+                    CNAME | Imagens
+                    <lib-tip text=""></lib-tip>
                 </div>
             </th>
             <th valuename="entry_link" style="width: 130px;">
                 <div class="table-flex">
-                    CNAME | Links 
-                    <dina-tooltip text=""></dina-tooltip>
+                    CNAME | Links
+                    <lib-tip text=""></lib-tip>
                 </div>
             </th>
             <th valuename="entry_spf" style="width: 130px;">
                 <div class="table-flex">
-                    CNAME | SPF 
-                    <dina-tooltip text=""></dina-tooltip>
+                    CNAME | SPF
+                    <lib-tip text=""></lib-tip>
                 </div>
             </th>
             <th valuename="{fixed}" style="width: 60px;">
@@ -89,8 +89,8 @@
             <td>
                 <div class="table-flex">
                     <div class="optionList">
-                        <dina-tooltip [isAction]='true' text='Editar' iconClass="ico-item-edit"></dina-tooltip>
-                        <dina-tooltip [isAction]='true' text='Compartilhar' iconClass="ico-grid-share"></dina-tooltip>
+                        <lib-tip text='Editar' iconClass="ico-item-edit"></lib-tip>
+                        <lib-tip text='Compartilhar' iconClass="ico-grid-share"></lib-tip>
                         <!-- <div class="ico ico-item-edit content-float-left" style="cursor: pointer;"></div>
                         <div class="ico ico-grid-share content-float-left" style="cursor: pointer;"></div> -->
                     </div>
@@ -100,10 +100,10 @@
     </tbody>
 </table>
 
-<dina-config-domains></dina-config-domains>
+<lib-how-configure-domains></lib-how-configure-domains>
 
 <div class="">
     <p class="report-title">Por que essa validação é importante?</p>
-    <p class="report-text">Quando você inicia a utilização de ferramentas de email marketing, o processo de envio é realizado da seguinte forma: você realiza o envio com seu endereço de remetente (seuemail@seudominio.com.br) porém seu envio é realizado pela infraestrutura de envio (servidores e IPS de envio) da ferramenta.</p><br />
+    <p class="report-text">Quando você inicia a utilização de ferramentas de email marketing, o processo de envio é realizado da seguinte forma: você realiza o envio com seu endereço de remetente (seuemail&#64;seudominio.com.br) porém seu envio é realizado pela infraestrutura de envio (servidores e IPS de envio) da ferramenta.</p><br />
     <p class="report-text">Ao iniciar suas atividades de e-mail marketing, é solicitado que realize duas configurações: a de SPF e de CNAME. Essas configurações visam evitar que seus envios sejam apontados como spam por seus destinatários, fazendo com que seu e-mail seja reconhecido como confiável para recebimento.</p>
 </div>

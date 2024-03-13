@@ -49,19 +49,19 @@
             </td>
             <td>
                 <div class="optionList">
-                    <dina-tooltip [isAction]='true' text='Download' iconClass="ico-gray-cloud-download"></dina-tooltip>
+                    <lib-tip text='Download' iconClass="ico-gray-cloud-download"></lib-tip>
                 </div>
             </td>
         </tr>
     </tbody>
 </table>
 
-<dina-config-domains></dina-config-domains>
+<lib-how-configure-domains></lib-how-configure-domains>
 
 <div class="">
     <p class="report-title">O que é DKIM?</p>
     <p class="report-text">DKIM (DomainKeys Identified Mail) Consiste em assinar as mensagens com uma chave pública, certificada ou não, para garantir a autenticidade do remetente. Ao contrário do SPF, que verifica o envelope, o DKIM verifica o cabeçalho da mensagem. Esta técnica acarreta um custo computacional adicional por mensagem, tanto para o MTA remetente quanto para o MTA destino.</p><br /><br />
-    
+
     <p class="report-title">Configurando o DKIM</p>
     <p class="report-text">Selecione o domínio na tabela e em seguida faça o download do arquivo que contém o texto para incluir no arquivo de configuração DNS de seu domínio. O texto a ser incluído possui o formato "selector._domainkey.domínio".</p>
 </div>
